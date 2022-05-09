@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú de Navegación</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <nav>
+        <div class="logos"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+            <a href="#home">INICIO</a>
+            <a href="#prod">PRODUCTOS</a>
+            <a href="#con">SUCURSALES</a>
+            <a href="#prom">PROMOCIONES</a>
+        </div>
+    </nav>
+    <section>
+        <div id="home">
+            <h1>INICIO</h1>
+        </div>
+
+                <img src="img 1.jpg">
+            <p>
+                La Paz, 21 de diciembre (Agencia de Noticias para el Desarrollo, AND).- En atención a la 
+                alta demanda de sus clientes, Pollos Copacabana abre un nuevo restaurante en la exEstación Central. 
+                Con capacidad para más de 100 personas, la nueva agencia está ubicada en las instalaciones de la parada 
+                de la línea del teleférico naranja.
+
+                “Llevar nuestro sabor y estar como marca más cerca de nuestro mercado es parte de nuestros planes comerciales 
+                y políticas empresariales. Adicionalmente, este lugar es testigo y protagonista de la historia de la ciudad que 
+                nos vio nacer, por lo que para nosotros formar parte de este lugar tan representativo para los paceños significa 
+                un sueño cumplido”, afirmó el gerente general de Pollos Copacabana, Oscar Camacho.
+            </p>
+
+        <div id="prod">
+            <h1>HOY QUIERO</h1>
+                <img src="Im.jpg" >
+                <img src="Im 2.jpg" >
+                <img src="Im 3.jpg" >
+                <img src="Im 4.jpg" >
+                <img src="Im 5.jpg" >
+                <img src="Im 6.jpg" >
+                <img src="Im 7.jpg" >
+                <img src="Im 8.jpg" >
+        </div>
+        <div id="con">
+            <h1>SUCURSALES</h1>
+            <p> Ven a nuestras sucursales y disfruta de nuestro Combo Cuartazo, un delicioso cuarto de pollo con opción a 3 acompañamientos.
+                ¡Ármalo como te guste a ti! 😀
+            </p>
+                <img src="img su.png">
+
+            <p> Gracias por ayudar por segundo año consecutivo, a que los niños crezcan con alegría y el amor que merecen. 
+                Por cada compra del Combo “Por Los Niños”, Bs 2 son destinados a la recaudación de fondos para promover una 
+                adecuada nutrición de 7.000 niños junto a Aldeas Infantiles SOS.
+            </p>
+        </div>
+        <div id="prom">
+            <h1>PROMOCIONES</h1>
+            <p> Bienvenidos a la página OFICIAL de Pollos Copacabana, Como te gusta a ti!. Según a las reglas de esta página,
+                serán eliminados todos los post que contengan:
+            </p>
+                    <ol>
+                        <li>- Insultos, publicaciones de dudosa reputación</li>
+                        <li>- Palabras obscenas</li>
+                        <li>- Agravios a la marca, amenazas de cualquier tipo</li>
+                        <li>- Agravios personales, publicaciones de acosos</li>
+                        <li>- Quejas injustificadas</li>
+                        <li>- Pornografía</li>
+                    </ol> 
+                <img src="prom.png">
+                <img src="prom2.png">
+                <img src="prom 3.png">
+            <p> Por otra parte, la carne de res también tiene su lugar en Pollos Copacabana, ya que ofrecen al menos 
+                cinco opciones que la contienen en forma de hamburguesas, como puede ser la Doble con dos discos de 
+                carne, la Combo Copacabana que tiene carne, tocino, lechuga y tomate, además de venir acompañada por 
+                papas y una gaseosa. Pero en el formato de sándwich también podremos pedir filetes de pollo a la plancha, 
+                acompañados de lechuga y algunos aderezos que nos llevarán a chuparnos los dedos.
+            </p>
+        </div>
+    </section>
+    <script type="text/javascript">
+        $(".btn").on("click", function(){
+            $('.menu').toggleClass("show");
+        });
+    </script>
+</body>
+</html>
